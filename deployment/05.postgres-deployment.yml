@@ -14,11 +14,11 @@ spec:
     metadata:
      name: postgres-pod 
      labels:
-	name: postgres-pod
-    	app: demo-voting-app
+	     name: postgres-pod
+       app: demo-voting-app
     spec:
-	containers:
-    	- name: postgres
-      	  image: postgres:9.4
-      	  ports:
-          - containerPort: 5432
+	     containers:
+    	 - name: postgres
+      	 image: postgres:9.4
+      	 ports:
+         - containerPort: 5432

@@ -14,11 +14,11 @@ spec:
     metadata:
       name: result-app-pod 
       labels:
-	name: result-app-pod
-    	app: demo-voting-app
+	      name: result-app-pod
+    	  app: demo-voting-app
     spec:
-	containers:
+	    containers:
     	- name: result-app
-      	  image: dockersamples/examplevotingapp_result
-      	  ports:
-          - containerPort: 80  
+      	image: dockersamples/examplevotingapp_result
+      	ports:
+        - containerPort: 80  
